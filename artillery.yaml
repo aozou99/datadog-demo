@@ -19,11 +19,11 @@ scenarios:
     - get:
         url: "/user/read"
     - post:
-        url: "/item/update"
+        url: "/user/update"
     - post:
-        url: "/item/update"
+        url: "/user/update"
     - delete:
-        url: "/item/delete"
+        url: "/user/delete"
     - post:
         url: "/item/create"
     - post:
