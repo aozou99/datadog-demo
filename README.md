@@ -20,3 +20,6 @@ $ node app.js
 ```
 $ artillery run artillery.yaml
 ```
+
+## 参照
+https://zenn.dev/aozou/articles/16c5be690ac592
