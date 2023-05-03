@@ -8,7 +8,7 @@ const logger = createLogger({
     ),
     transports: [
       new transports.Console(),
-      new transports.File({ filename: `/Users/aoki.atsushi/Develop/datadog-demo/demo.log` }),
+      new transports.File({ filename: `<ファイル名パス>.log` }),
     ],
 });
 
