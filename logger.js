@@ -8,7 +8,7 @@ const logger = createLogger({
     ),
     transports: [
       new transports.Console(),
-      new transports.File({ filename: `<ファイル名パス>.log` }),
+      new transports.File({ filename: `demo.log` }),
     ],
 });
 
