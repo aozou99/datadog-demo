@@ -1,0 +1,44 @@
+config:
+  target: 'http://localhost:3000'
+  phases:
+    - duration: 1000
+      arrivalRate: 3
+      rampTo: 5
+scenarios:
+  - flow:
+    - post:
+        url: "/user/create"
+    - post:
+        url: "/user/create"
+    - get:
+        url: "/user/read"
+    - get:
+        url: "/user/read"
+    - get:
+        url: "/user/read"
+    - get:
+        url: "/user/read"
+    - post:
+        url: "/item/update"
+    - post:
+        url: "/item/update"
+    - delete:
+        url: "/item/delete"
+    - post:
+        url: "/item/create"
+    - post:
+        url: "/item/create"
+    - get:
+        url: "/item/read"
+    - get:
+        url: "/item/read"
+    - get:
+        url: "/item/read"
+    - get:
+        url: "/item/read"
+    - post:
+        url: "/item/update"
+    - post:
+        url: "/item/update"
+    - delete:
+        url: "/item/delete"
